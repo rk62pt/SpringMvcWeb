@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="../kickstart/css/kickstart.css" media="all" />                  <!-- KICKSTART -->
 </head>
 <body>
-<h1>Test Page</h1>
+<h1>測試 Page</h1>
 <table  cellspacing="0" cellpadding="0" class="striped tight sortable">
 <thead><tr>
 <td>縣市</td><td>描述</td>
