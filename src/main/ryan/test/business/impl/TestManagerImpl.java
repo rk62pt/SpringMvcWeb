@@ -15,12 +15,12 @@ public class TestManagerImpl implements TestManager {
 	public List<TestVO> search() throws Exception {
 		List<TestVO> voList = new ArrayList<TestVO>();
 		TestVO vo = new TestVO();
-		vo.setCity("¥x¥_¥«");
-		vo.setDescription("»O¥_¥«¬O¤¤µØ¥Á°êªºª½ÁÒ¥«»P­º³£¡A¦Û1949¦~©³°_¦¨¬°¤¤µØ¥Á°ê¤¤¥¡¬F©²©Ò¦b¦a");
+		vo.setCity("å°åŒ—å¸‚");
+		vo.setDescription("æ–°åŒ—å¸‚æ—é‚Š");
 		voList.add(vo);
 		vo = new TestVO();
-		vo.setCity("·s¥_¥«");
-		vo.setDescription("·s¥_¥«¬O¤¤µØ¥Á°êªºª½ÁÒ¥«¡A¬°»OÆW¤H¤f±Æ¦W²Ä¤@ªº³£¥«¡C¥ş¹ÒÀôÂ¶»O¥_¥«");
+		vo.setCity("æ–°åŒ—å¸‚");
+		vo.setDescription("åœ¨å°åŒ—å¸‚æ—é‚Š");
 		voList.add(vo);
 		return voList;
 	}
